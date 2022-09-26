@@ -3,7 +3,7 @@ TextBox tb;
 public void setup() {
   size(500, 500);
   
-  tb = new TextBox(250, 250, 50, 50, 30, 5, 10, color(255, 255, 255), color(0, 0, 0), createFont("Georgia", 20));
+  tb = new TextBox(175, 250, 200, 50, 30, 5, 17, color(255, 255, 255), color(0, 0, 0), createFont("Georgia", 20));
 }
 
 public void draw() {
