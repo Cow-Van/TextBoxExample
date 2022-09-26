@@ -79,11 +79,6 @@ public class TextBox {
     removeChar(chars.size() - 1);
   }
   
-  // Checks if coordinates are inside the text box
-  public boolean isColliding(float xCoord, float yCoord) {  
-    return (xCoord >= x && xCoord <= x + wid) && (yCoord >= y && yCoord <= y + hei);
-  }
-  
   // Returns the current input in the text box
   public String getInput() {
     return characterListToString(chars);
